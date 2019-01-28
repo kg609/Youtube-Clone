@@ -21,9 +21,7 @@ class SearchBar extends Component {
            <li className="nav-item">
              <a className="nav-link" href="#">Contact</a>
            </li>
-           <li className="nav-item">
-             <a className="nav-link" href="#">Link 4</a>
-           </li>
+           
         </ul>
       </nav>
         
