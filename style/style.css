@@ -51,12 +51,11 @@ ul.navbar-nav {
 
 .list-group-item {
   cursor: pointer;
-  background: #AFAFAF;
   -webkit-box-shadow: 1px 3px 10px 2px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 3px 10px 2px rgba(0,0,0,0.75);
   box-shadow: 1px 3px 10px 2px rgba(0,0,0,0.75);
 }
 
-.list-group-item:hover {
+/*.list-group-item:hover {
   background-color: #eee;
-}
+}*/
