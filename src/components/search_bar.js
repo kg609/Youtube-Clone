@@ -9,10 +9,10 @@ class SearchBar extends Component {
 
   render(){
     return (
-      <header>
+      <header >
       <nav className="navbar navbar-expand-lg">
         <ul className="navbar-nav">
-           <li className="nav-item active">
+           {/*<li className="nav-item active">
            <a className="nav-link" href="#">Home</a>
            </li>
            <li className="nav-item">
@@ -20,10 +20,10 @@ class SearchBar extends Component {
            </li>
            <li className="nav-item">
              <a className="nav-link" href="#">Contact</a>
-           </li>
+    </li> */}
            
         </ul>
-      </nav>
+      
         
         <form className="input-group search-bar">
           <input
@@ -35,6 +35,7 @@ class SearchBar extends Component {
             <button type="submit" className="btn btn-danger">Search</button>
           </span>
         </form>
+        </nav>
       </header>
     );
   }
